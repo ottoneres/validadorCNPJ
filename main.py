@@ -35,7 +35,7 @@ if __name__ == '__main__':
             break
         elif len(cnpj_original) > 18:
             print('CNPJ inválido!')
-            break
+            continue
         cnpj_final = cnpj.valida_cnpj(cnpj_original)
         continue
 
